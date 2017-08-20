@@ -1,0 +1,19 @@
+<html>
+<head>
+<title>PHP Websockets chat</title>
+<script type="text/javascript" src="admin.js"></script>
+<link rel="stylesheet" type="text/css" href="admin.css">
+</head>
+<body bgcolor="white" onload="Reconnect()">
+	<div class="top">
+		<form action="#" onsubmit="return Reconnect()">
+			Connect to: <input type="text" id="server" size="16" value="">
+			Control parameter: <input type="text" id="control" size="10" value="wsphp_control">
+			Pasword: <input type="text" id="password" size="10" value="wsphp">
+			<input type="submit" value="Connect">
+			<span id=status>&nbsp; &nbsp;</span>
+		</form>
+	</div>
+	<div id="admin"></div>
+</body>
+</html>

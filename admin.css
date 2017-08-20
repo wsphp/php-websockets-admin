@@ -1,0 +1,6 @@
+.top { background:#E0E0E0; padding:10px; font-weight:bold; }
+.top form { margin:0px; }
+.top input, .top select { margin-right:10px; }
+#admin { font-family:monospace,monospace; margin-top:20px; }
+#status { width:20px; height:20px; background:#000; }
+.header {font-weight:bold; background:#DDD; }
